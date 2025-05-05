@@ -1,7 +1,10 @@
 ---
-import { ClientRouter } from "astro:transitions";
 import { SITE } from "@/config";
 import "@/styles/global.css";
+import "@fontsource-variable/inter";
+import "@fontsource-variable/noto-sans-sc";
+import "@fontsource/maple-mono";
+// import { ClientRouter } from "astro:transitions";
 
 const googleSiteVerification = import.meta.env.PUBLIC_GOOGLE_SITE_VERIFICATION;
 
@@ -125,9 +128,15 @@ const structuredData = {
       )
     }
 
-    <ClientRouter />
+    {/* <ClientRouter /> */}
 
     <script is:inline src="/toggle-theme.js"></script>
+
+    <!-- KaTeX CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+    />
   </head>
   <body>
     <slot />

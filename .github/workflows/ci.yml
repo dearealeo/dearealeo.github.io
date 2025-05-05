@@ -20,10 +20,10 @@ jobs:
         node-version: [20]
 
     steps:
-      - name: "☁️ Checkout repository"
+      - name: "Checkout repository"
         uses: actions/checkout@v4
 
-      - name: "📦 Install pnpm"
+      - name: "Install pnpm"
         uses: pnpm/action-setup@v4
         with:
           version: 10
@@ -34,14 +34,14 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: "pnpm"
 
-      - name: "📦 Install dependencies"
-        run: pnpm install
+      - name: "Install dependencies"
+        run: pnpm install --frozen-lockfile
 
-      - name: "🔎 Lint code"
+      - name: "Lint code"
         run: pnpm run lint
 
-      - name: "📝 Checking code format"
+      - name: "Check code format"
         run: pnpm run format:check
 
-      - name: "🚀 Build the project"
+      - name: "Build the project"
         run: pnpm run build

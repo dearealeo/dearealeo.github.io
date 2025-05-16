@@ -1,5 +1,6 @@
 @import "@sukka/markdown.css/dist/markdown.css";
 @import "tailwindcss";
+@import "basecoat-css";
 @import "./typography.css";
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));

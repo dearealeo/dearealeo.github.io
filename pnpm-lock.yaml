@@ -50,6 +50,9 @@ importers:
       astro:
         specifier: ^5.7.10
         version: 5.7.10(jiti@2.4.2)(lightningcss@1.29.2)(rollup@4.40.0)(typescript@5.8.3)(yaml@2.7.0)
+      basecoat-css:
+        specifier: ^0.1.2
+        version: 0.1.2
       dayjs:
         specifier: ^1.11.13
         version: 1.11.13
@@ -1290,6 +1293,9 @@ packages:
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
+
+  basecoat-css@0.1.2:
+    resolution: {integrity: sha512-nKlo9u7rLE7POTet5rId1Q8xjzHCqGxqRJxvF6qC7DY3ZgDDtEkLCYQN23Rluk2VMg/HPqWWf4+6rS49rXLzLw==}
 
   blob-to-buffer@1.2.9:
     resolution: {integrity: sha512-BF033y5fN6OCofD3vgHmNtwZWRcq9NLyyxyILx9hfMy1sXYy4ojFl765hJ2lP0YaN2fuxPaLO2Vzzoxy0FLFFA==}
@@ -4355,6 +4361,8 @@ snapshots:
   base64-js@0.0.8: {}
 
   base64-js@1.5.1: {}
+
+  basecoat-css@0.1.2: {}
 
   blob-to-buffer@1.2.9: {}
 

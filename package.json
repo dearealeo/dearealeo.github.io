@@ -27,6 +27,7 @@
     "@sukka/markdown.css": "^0.1.5",
     "@tailwindcss/vite": "^4.1.4",
     "astro": "^5.7.10",
+    "basecoat-css": "^0.1.2",
     "dayjs": "^1.11.13",
     "katex": "^0.16.22",
     "lodash.kebabcase": "^4.1.1",

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+authors:
+  - family-names: "宋"
+    given-names: "彥筠"
+title: "dearealeo.github.io"
+version: 0.1.0
+date-released: 2025-05-20
+url: "https://github.com/dearealeo/dearealeo.github.io"
+type: software
+license: MIT

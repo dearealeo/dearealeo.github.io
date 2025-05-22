@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@astrojs/markdoc": "^0.14.2",
-    "@astrojs/mdx": "^4.2.6",
+    "@astrojs/mdx": "^4.3.0",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.3.1",

@@ -28,7 +28,7 @@ updates:
     commit-message:
       prefix: "deps"
     groups:
-      production-deps:
+      prod-deps:
         applies-to: version-updates
         dependency-type: production
         patterns:
@@ -36,12 +36,12 @@ updates:
         update-types:
           - "minor"
           - "patch"
-      development-deps:
+      dev-deps:
         applies-to: version-updates
         dependency-type: development
         patterns:
           - "*"
-      security-updates:
+      security-deps:
         applies-to: security-updates
         patterns:
           - "*"

@@ -14,7 +14,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@astrojs/markdoc": "^0.14.2",
+    "@astrojs/markdoc": "^0.15.0",
     "@astrojs/mdx": "^4.2.6",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/rss": "^4.0.11",
